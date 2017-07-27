@@ -1,5 +1,5 @@
 {
-    "name": "Spencer-Mortensen/Benchmarker",
+    "name": "spencer-mortensen/benchmarker",
     "type": "library",
     "description": "Benchmark snippets of code, gathering the mean and standard deviation for each snippet",
     "keywords": [
