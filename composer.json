@@ -1,0 +1,27 @@
+{
+    "name": "Spencer-Mortensen/Benchmarker",
+    "type": "library",
+    "description": "Benchmark snippets of code, gathering the mean and standard deviation for each snippet",
+    "keywords": [
+        "PHP",
+        "benchmark"
+    ],
+    "homepage": "https://github.com/Spencer-Mortensen/Benchmarker",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Spencer Mortensen",
+            "email": "spencer@testphp.org",
+            "homepage": "http://spencermortensen.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benchmarker\\": "src"
+        }
+    }
+}

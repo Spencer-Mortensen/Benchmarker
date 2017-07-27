@@ -1,0 +1,6 @@
+/.idea/
+/testphp/coverage/
+/vendor/
+/x/
+/composer.lock
+/.source
