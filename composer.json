@@ -6,12 +6,12 @@
         "PHP",
         "benchmark"
     ],
-    "homepage": "https://github.com/Spencer-Mortensen/Benchmarker",
+    "homepage": "https://github.com/spencer-mortensen/Benchmarker",
     "license": "GPL-3.0",
     "authors": [
         {
             "name": "Spencer Mortensen",
-            "email": "spencer@testphp.org",
+            "email": "spencer@lens.guide",
             "homepage": "http://spencermortensen.com",
             "role": "Developer"
         }
