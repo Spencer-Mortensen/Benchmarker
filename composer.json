@@ -6,8 +6,8 @@
         "PHP",
         "benchmark"
     ],
-    "homepage": "https://github.com/spencer-mortensen/Benchmarker",
-    "license": "GPL-3.0",
+    "homepage": "https://github.com/spencer-mortensen/benchmarker",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Spencer Mortensen",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Benchmarker\\": "src"
+            "SpencerMortensen\\Benchmarker\\": "src"
         }
     }
 }

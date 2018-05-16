@@ -23,7 +23,7 @@
  * @copyright 2017 Spencer Mortensen
  */
 
-namespace Benchmarker;
+namespace SpencerMortensen\Benchmarker;
 
 interface Test
 {
