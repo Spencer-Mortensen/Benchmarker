@@ -37,7 +37,7 @@ class Benchmarker
 
 	public function run(array $tests)
 	{
-		$output = array();
+		$output = [];
 
 		foreach ($tests as $name => $properties) {
 			list($test, $trials) = $properties;
@@ -52,7 +52,7 @@ class Benchmarker
 
 	private function runTest(Test $test, $trials)
 	{
-		$times = array();
+		$times = [];
 
 		for ($trial = 0; $trial < $trials; ++$trial) {
 			$times[] = $test->run();
@@ -61,7 +61,7 @@ class Benchmarker
 		$mean = $this->math->getMean($times);
 		$std = $this->math->getSampleStandardDeviation($times, $mean);
 
-		return array($mean, $std);
+		return [$mean, $std];
 	}
 
 	private static function getResultsText($mean, $std)
